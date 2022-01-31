@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML5</title>
+</head>
+<body>
+    <h1>Listas em HTML5</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol><!--A tag ol significa "Ordered List" em inglês.-->
+        <li>Item 1</li><!--A tag li significa "List Item" em inglês.-->
+        <li>Item 2</li>
+        <li>Item 3</li><!--O fechamento da tag li (</li>) é opcional.-->
+    </ol>
+    <p>
+        A principal vantagem ao utilizar-se a tag ol é a capacidade de inserir elementos na lista <br> em qualquer posição e a ordem / numeração ser alterada automaticamente.
+    </p>
+    <p>
+        Em uma lista ordenada podem ser escolhidos o tipo e elemento inicial:
+    </p>
+    <p>type = "A" start = "1"</p>
+    <ol type="A" start="1"> <!--O "type='A'" faz com que a lista seja organizada a partir de letras maiúsculas-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <p>type = "a" start = "2"</p>
+    <ol type="a" start="2"> <!--O "type='a' faz com que a lista seja organizada a partir de letras minúsculas, e o "start='2'" faz com que ela se inicie no segundo elemento."-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <p>type = "I" start = "1"</p>   
+    <ol type="I" start="1"> <!--O "type='I' faz com que a lista seja organizada a partir de números romanos.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <p>tyoe = "i" start = "1"</p>
+    <ol type="i" start="1"> <!--O "type='i' faz com que a lista seja organizada a partir de números romanos, compostos por letras minúsculas.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>   
+    <h2>Listas Não Ordenadas</h2>
+    <ul><!--A tag ul significa "Unordered List" em inglês.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <p>As listas não ordenadas podem ter tipos diferentes, assim como as listas ordenadas:</p>
+    <p>type = "circle"</p>
+    <ul type="circle"><!--O "type='circle' faz com que a lista seja organizada a partir de círculos.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <p>type = "square"</p>
+    <ul type="square"><!--O "type='square' faz com que a lista seja organizada a partir de quadrados.-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h2>Junando Listas 1</h2>
+    <ol>
+        <li>Elemento 1</li>
+        <ol>
+            <li>Sub-Elemento 1</li>
+            <ul>
+                <li>(Sub)Sub-Elemento</li>
+            </ul>
+            <li>Sub-Elemento 2</li>
+        </ol>
+        <li>Elemento 2</li>
+        <ul type="disc"><!--O "type='disc' é o tipo padrão da lista não ordenada."-->
+            <li>Sub-Elemento 1</li>
+            <li>Sub-Elemento 2</li>
+        </ul>
+    </ol>
+    <h2>Listas de Definição</h2>
+    <dl><!--A tag dl significa "Definition List" em inglês.-->
+        <dt>Termo 1</dt><!--Termo da lista de definição-->
+        <dd>Definição do termo 1.</dd><!--Definição do termo.-->
+        <dt>Termo 2</dt>
+        <dd>Definição do termo 2.</dd>
+    </dl>
+</body>
+</html>
