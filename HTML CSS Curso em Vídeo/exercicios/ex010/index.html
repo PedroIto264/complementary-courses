@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>Utilizando links externos:</h1>
+    <p>Você pode tomar um rickroll ao clicar <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">aqui</a></p> <!--A tag a significa "Anchor" em inglês.-->
+    <p>Ao clicar no link acima, a página atual será substituida pela página de destino.</p>
+    <p>Para que o link seja aberto em uma nova guia, deve-se adicionar "target="_blank"" dentro da tag a, como feito abaixo</p>
+    <p>Você também pode tomar um rickroll ao clicar <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="external">aqui</a></p> 
+    <!-- O "rel="external"" não interfere no funcionamento do link, serve apenas para indicar que é um link externo, nesse caso.-->
+
+    <h1>Utilizando links internos:</h1>
+    <p>Para ir a segunda página do site, clique <a href="pag002.html" rel = "next">aqui</a></p>
+    <!-- O "rel="next"" não interfere no funcionamento do link, serve apenas para indicar que é a próxima página do site..-->
+    <p>A terceira página do site se encontra em uma pasta, e para acessa-la basta clicar <a href="teste/pag003.html" rel="next" target="_self">aqui</a></p>
+    <!--O "target="_self" serve para que a página seja aberta na guia atual."-->
+
+    <h1>Links para Download:</h1>
+    <p>Baixar o PDF do capítulo 10:</p>
+    <ul>
+        <li><a href="downloader/10 - Ligações em toda parte.pdf" download="Ligações em toda parte.pdf" type="application/pdf">.pdf</a></li>
+        <li><a href="downloader/10 - Ligações em toda parte.rar" download="Ligações em toda parte.rar" type="application/rar">.rar</a></li>
+    </ul>
+</body>
+</html>
